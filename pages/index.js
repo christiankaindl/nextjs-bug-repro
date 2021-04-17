@@ -18,14 +18,14 @@ export default function Home() {
         <div className={styles.grid}>
           <Link href="/crashes/123">
             <a className={styles.card}>
-              <h3>Go to API route &rarr;</h3>
-              <p>Crashes with error</p>
+              <h3>Go to route &rarr;</h3>
+              <p>Crashes with error (not included in `paths`)</p>
             </a>
           </Link>
           <Link href="/crashes/987">
             <a className={styles.card}>
-              <h3>Go to API route &rarr;</h3>
-              <p>Does not crash</p>
+              <h3>Go to another route &rarr;</h3>
+              <p>Does not crash (is included in `paths`)</p>
             </a>
           </Link>
         </div>
