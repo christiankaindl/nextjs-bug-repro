@@ -10,8 +10,8 @@ export default function CrashingApiRoute ({ name }) {
 
 export const getStaticPaths = async function () {
   return {
-    paths: ['/crashes/123'],
-    fallback: false
+    paths: ['/crashes/987'],
+    fallback: true
   }
 }
 

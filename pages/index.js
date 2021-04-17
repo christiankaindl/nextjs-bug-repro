@@ -22,6 +22,12 @@ export default function Home() {
               <p>Crashes with error</p>
             </a>
           </Link>
+          <Link href="/crashes/987">
+            <a className={styles.card}>
+              <h3>Go to API route &rarr;</h3>
+              <p>Does not crash</p>
+            </a>
+          </Link>
         </div>
       </main>
     </div>
