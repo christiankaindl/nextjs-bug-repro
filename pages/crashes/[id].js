@@ -1,4 +1,4 @@
-import { doStuff } from "../lib"
+import { doStuff } from "../../lib"
 
 export default function CrashingApiRoute ({ name }) {
   return (
@@ -6,6 +6,13 @@ export default function CrashingApiRoute ({ name }) {
       {name}
     </div>
   )
+}
+
+export const getStaticPaths = async function () {
+  return {
+    paths: [],
+    fallback: true
+  }
 }
 
 export async function getStaticProps () {

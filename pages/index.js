@@ -16,7 +16,7 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <Link href="/crashing-api-route">
+          <Link href="/crashes/123">
             <a className={styles.card}>
               <h3>Go to API route &rarr;</h3>
               <p>Crashes with error</p>
